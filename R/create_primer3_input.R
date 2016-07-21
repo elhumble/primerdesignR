@@ -35,6 +35,7 @@ create_primer3_input_A <- function(seqID,
 #' @param target Specify your target sequence object.
 #' @param primer3path Specify the path to the program primer3 for example: /home/emily/programs/primer3-2.3.7
 #' @param outdir Specify the path of the directory in which the output file should be written.
+#' @export
 
 create_primer3_input_B <- function(seqID,
                                    target,
@@ -229,6 +230,7 @@ create_primer3_input_B <- function(seqID,
 #' @param target Specify your target sequence object.
 #' @param primer3path Specify the path to the program primer3 for example: /home/emily/programs/primer3-2.3.7
 #' @param outdir Specify the path of the directory in which the output file should be written.
+#' @export
 
 create_primer3_input_C <- function(seqID,
                                    target,
