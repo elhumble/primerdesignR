@@ -6,5 +6,5 @@
 #' @export
 
 run_primer3 <- function(input, primer3path, indir, outdir){
-        system(paste0(primer3path," <",input,"> ",outdir,"/",input,"OUT"))
+        system(paste0(primer3path," <",indir,input,"> ",outdir,input,"_OUT"))
 }
