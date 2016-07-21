@@ -3,6 +3,8 @@
 export(blastprimers2genome)
 export(blastseqs2genome)
 export(create_primer3_input_A)
+export(create_primer3_input_B)
+export(create_primer3_input_C)
 export(download_query_seqs)
 export(extract_target_location)
 export(insert_str)
