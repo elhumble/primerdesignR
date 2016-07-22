@@ -1,7 +1,7 @@
 # primerdesignR
 
 R package for designing primers. `primerdesignR` mainly contains functions for generating and parsing files to automate the process of 
-primer design. Please follow the [tutorial](https://github.com/elhumble/primerdesignR/primerdesignR_tutorial.pdf) carefully. If you have
+primer design. Please follow the [tutorial](https://github.com/elhumble/primerdesignR/blob/master/primerdesignR_tutorial.pdf) carefully. If you have
 any questions please email emily.lhumble[at]gmail.com
 
 You can install:
