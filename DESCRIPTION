@@ -1,8 +1,8 @@
 Package: primerdesignR
-Title: What the Package Does (one line, title case)
+Title: R package for designing primers
 Version: 0.0.0.9000
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: Functions to generate and parse files to automate the process of primer design using primer3
 Depends:
     R (>= 3.2.3)
 License: What license is it under?

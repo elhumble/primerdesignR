@@ -1,0 +1,33 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# primerdesignR
+
+R package for designing primers. `primerdesignR` mainly contains functions for generating and parsing files to automate the process of 
+primer design. Please follow the [tutorial](https://github.com/elhumble/primerdesignR/primerdesignR_tutorial.pdf) carefully. If you have
+any questions please email emily.lhumble[at]gmail.com
+
+You can install:
+
+```R
+if (packageVersion("devtools") < 1.6) {
+        install.packages("devtools")
+}
+
+devtools::install_github("elhumble/primerdesignR")
+
+```
+
