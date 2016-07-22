@@ -41,7 +41,7 @@ create_primer3_input_B <- function(seqID,
                                    target,
                                    primer3path,
                                    outdir){
-        primer <- matrix(nrow = 175,
+        primer <- matrix(nrow = 176,
                          ncol = 1)
 
         params <- c(paste0("SEQUENCE_ID=",seqID),
@@ -50,6 +50,7 @@ create_primer3_input_B <- function(seqID,
                     paste0("PRIMER_THERMODYNAMIC_PARAMETERS_PATH=",primer3path,"/src/primer3_config/", sep = ""),
                     paste("SEQUENCE_PRIMER_PAIR_OK_REGION_LIST=1,100",str_length(target),"100", sep = ","),
                     "PRIMER_MAX_END_STABILITY=9",
+                    "P3_FILE_FLAG=1",
                     "PRIMER_OPT_SIZE=20",
                     "PRIMER_MIN_SIZE=18",
                     "PRIMER_MAX_SIZE=23",
@@ -236,7 +237,7 @@ create_primer3_input_C <- function(seqID,
                                    target,
                                    primer3path,
                                    outdir){
-        primer <- matrix(nrow = 118,
+        primer <- matrix(nrow = 119,
                          ncol = 1)
 
         params <- c(paste0("SEQUENCE_ID=",seqID),
@@ -251,6 +252,7 @@ create_primer3_input_C <- function(seqID,
                     "PRIMER_NUM_RETURN=5",
                     "PRIMER_MIN_5_PRIME_OVERLAP_OF_JUNCTION=5",
                     "PRIMER_PRODUCT_SIZE_RANGE=150-250 100-300 301-400 401-500 501-600 601-700 701-850 851-1000",
+                    "P3_FILE_FLAG=1",
                     "PRIMER_PRODUCT_OPT_SIZE=0",
                     "PRIMER_PAIR_WT_PRODUCT_SIZE_LT=0.0",
                     "PRIMER_PAIR_WT_PRODUCT_SIZE_GT=0.0",
