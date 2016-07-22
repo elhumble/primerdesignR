@@ -4,14 +4,14 @@
 \alias{run_primer3}
 \title{run_primer3: Run primer3_core executable}
 \usage{
-run_primer3(input, primer3path, indir, outdir)
+run_primer3(indir, input, primer3_corepath, outdir)
 }
 \arguments{
+\item{indir}{Specify the path of the directory in which the input file is stored.}
+
 \item{input}{Specify the name of your primer3 input file.}
 
-\item{primer3path}{Specify the path of where the primer3_core executable is stored.}
-
-\item{indir}{Specify the path of the directory in which the input file is stored.}
+\item{primer3_corepath}{Specify the path of where the primer3_core executable is stored.}
 
 \item{outdir}{Specify the path of the directory in which the output file should be written.}
 }
